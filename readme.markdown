@@ -5,6 +5,8 @@ Nice tool used together with [Alfred app](http://www.alfredapp.com/)
 
 ## Usage:
 
+!! Need to set correct path for json.txt file !!
+
 Here is simple usage calls:
 
 ### Ruby
