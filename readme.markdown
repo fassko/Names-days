@@ -7,8 +7,15 @@ Nice tool used together with [Alfred app](http://www.alfredapp.com/)
 
 Here is simple usage calls:
 
+### Ruby
+
     ruby varda_dienas.rb
+    ruby varda_dienas.rb 18.12
+    
+### Python
+
     python varda_dienas.py
+    python varda_dienas.py 18.12
     
 ## Additional libs:
 

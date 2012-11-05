@@ -3,7 +3,12 @@ require 'hpricot'
 require 'open-uri'
 require 'date'
 
-doc = open("http://www.vardadienas.lv/search/#{Time.now.day}.#{Time.now.month}") { |f| Hpricot(f) }
+
+if ARGV[0]
+  doc = open("http://www.vardadienas.lv/search/#{ARGV[0]}") { |f| Hpricot(f) }
+else
+  doc = open("http://www.vardadienas.lv/search/#{Time.now.day}.#{Time.now.month}") { |f| Hpricot(f) }
+end
 
 names = Array.new
 
