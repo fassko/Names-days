@@ -1,6 +1,7 @@
 # Latvian namesdays
 
 Small tool in python and ruby to get Latvian namesdays for this date.
+Nice tool used together with [Alfred app](http://www.alfredapp.com/)
 
 ## Usage:
 
