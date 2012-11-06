@@ -18,14 +18,3 @@ Here is simple usage calls:
 
     python varda_dienas.py
     python varda_dienas.py 18.12
-    
-## Additional libs:
-
-### Ruby:
-
-    sudo gem install hpricot
-    
-### Python:
-
-
-    sudo pip install PyQuery
